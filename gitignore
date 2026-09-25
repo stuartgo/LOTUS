@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+data/
+lightning_logs/
+*.ckpt
+*.pt
+*.parquet
+error_log.txt

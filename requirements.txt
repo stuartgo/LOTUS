@@ -1,0 +1,14 @@
+torch>=2.1
+pytorch-lightning>=2.1
+pytorch-tcn>=1.2
+numpy
+polars>=1.0
+pandas
+tqdm
+
+# Raw-data preprocessing only (reading GENEActiv / Actigraph files)
+wristpy
+
+# Demo notebook
+matplotlib
+jupyter
