@@ -1,6 +1,6 @@
 # Button-press sleep timing from wrist accelerometry
 
-Code accompanying **[PAPER TITLE]** ([authors], [venue, year]).
+Code accompanying **Predicting Sleep Intent Boundaries from Wrist Actigraphy** .
 
 The model localises a participant's bedtime (or wake time) within a 24-hour wrist-accelerometer recording. Labels come from the device's event button: participants press it when going to bed and when getting up, and a movement-based selection step picks the most plausible pair of presses for each night. A patch-based temporal network then learns to predict the press time directly from the raw tri-axial signal.
 
